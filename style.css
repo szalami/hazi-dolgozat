@@ -79,3 +79,30 @@ footer p {
     line-height: 240px;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5473b4;
+    min-width: 260px;
+    z-index: 1;
+  }
+.dropdown-content a {
+    display: block;
+}
+.dropdown-content a:hover {
+    color: #333;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.down-arrow {
+    width: 12px;
+    margin-left: 16px;
+    margin-bottom: 4px;
+}
